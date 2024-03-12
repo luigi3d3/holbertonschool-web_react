@@ -4,17 +4,18 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "dev": "webpack --devtool inline-source-map"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "webpack": "^4.41.2",
-      "webpack-cli": "^3.3.9"
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9"
     },
     "dependencies": {
-      "jquery": "^3.6.0",
-      "lodash": "^4.17.21"
+        "jquery": "^3.6.0",
+        "lodash": "^4.17.21"
     }
 }
