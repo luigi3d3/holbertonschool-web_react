@@ -1,0 +1,21 @@
+{
+    "name": "typescript_dependencies",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start-dev": "webpack serve --open",
+      "build": "webpack",
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jquery": "^3.6.0"
+    },
+    "devDependencies": {
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.9"
+    }
+  }
