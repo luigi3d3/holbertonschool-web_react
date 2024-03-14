@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest",
         "build": "webpack",
-        "dev": "webpack serve --mode development --open"
+        "dev": "webpack-dev-server --open"
     },
     "keywords": [],
     "author": "",
@@ -23,7 +23,6 @@
     },
     "dependencies": {
         "jquery": "^3.7.1",
-        "jQuery": "^1.7.4",
         "lodash": "^4.17.21"
     }
 }
