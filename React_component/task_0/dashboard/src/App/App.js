@@ -4,6 +4,7 @@ import Login from '../Login/Login';
 import CourseList from '../CourseList/CourseList';
 import Notifications from '../Notifications/Notifications';
 
+
 class App extends Component {
   static propTypes = {
     isLoggedIn: PropTypes.bool,
