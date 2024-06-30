@@ -1,0 +1,11 @@
+#count {
+	display: inline;
+	font-style: bold;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	background: url(24bab5d633e36ca8d17e.jpg);
+	background-size: 200px 200px;
+}
