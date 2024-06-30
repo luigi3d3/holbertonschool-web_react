@@ -1,0 +1,39 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config config/webpack.config.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.8",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/config/setupTests.js"
+    ],
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(css|jpg|jpeg|png)$": "identity-obj-proxy"
+    },
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  }
+}
