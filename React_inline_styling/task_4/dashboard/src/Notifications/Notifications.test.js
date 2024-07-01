@@ -35,3 +35,4 @@ describe('Notifications component', () => {
     expect(shouldUpdate).toBe(true);
   });
 });
+

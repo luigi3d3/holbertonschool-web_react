@@ -100,4 +100,5 @@ Notifications.propTypes = {
   })).isRequired,
 };
 
+
 export default Notifications;
